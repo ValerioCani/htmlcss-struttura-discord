@@ -1,5 +1,61 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;    
 }
+
+.flex{
+    display: flex;
+}
+
+
+/* regole di debug */
+.debug .top-head{
+    background-color: aqua;
+}
+
+.debug .navigator{
+    background-color:rgb(240, 202, 80);
+}
+
+.debug nav{
+    border: dashed black 2px;
+}
+/* fine regole di debug */
+/* inizio regole parte alta dell'header */
+
+.top-head{
+    height:80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.navigator{
+    width: 1170px;
+}
+
+nav{
+    height: 50px;
+    line-height: 50px;
+}
+
+.logo{
+    width: 25%;
+    padding-left: 10px;
+}
+
+.login{
+    width: 25%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.links{
+    width: 70%;
+    text-align: center;
+}
+/* fine regole parte alta dell'header 
+   e inizio regole parte bassa dell'header*/
+
+   
