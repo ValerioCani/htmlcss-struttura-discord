@@ -21,6 +21,15 @@
 .debug nav{
     border: dashed black 2px;
 }
+
+.debug .bot-head{
+    background-color: blue;
+}
+
+.debug .bot-head>div{
+    background-color: violet;
+    border: dashed black 2px;
+}
 /* fine regole di debug */
 /* inizio regole parte alta dell'header */
 
@@ -57,5 +66,15 @@ nav{
 }
 /* fine regole parte alta dell'header 
    e inizio regole parte bassa dell'header*/
+.bot-head{
+    padding: 50px;
+}   
 
+.bot-head > div{
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+}
+/* fine regole parte bassa dell'header 
+   e inizio regole delle sezioni del main del main*/
    
