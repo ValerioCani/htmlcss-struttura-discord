@@ -119,3 +119,50 @@ main>section:nth-child(2n){
     height: 1000px;
     margin: auto;
 }
+/* fine regole della sezione main 
+   e inizio regole sezione footer */
+footer{
+    background-color: black;
+    padding-top: 5px;
+}
+
+.footer-top{
+    width: 1170px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: dashed black 2px;
+}
+
+.column-l{
+    height: 700px;
+    width: 32%;
+    background-color: darksalmon;
+    border: dashed black 2px;
+}
+
+.column-s{
+    height: 700px;
+    width: 17%;
+    background-color: darkcyan;
+    border: dashed white 2px;
+}
+
+hr{
+    background-color: white;
+}
+
+.fine{
+    height: 80px;
+    width: 1170px;
+    margin: auto;
+    margin-top: 15px;
+    background-color:lightgreen;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fine div{
+    height: 1.5em;
+    background-color: indianred;
+    border: dashed black 2px;
+}
