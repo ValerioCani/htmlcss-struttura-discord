@@ -30,6 +30,21 @@
     background-color: violet;
     border: dashed black 2px;
 }
+
+.debug .image{
+    background-color: deepskyblue;
+    border: dashed black 2px;
+}
+
+.debug .text{
+    background-color: peachpuff;
+    border: dashed black 2px;
+}
+
+.debug .last{
+    background-color: green;
+    border: dashed black 2px;
+}
 /* fine regole di debug */
 /* inizio regole parte alta dell'header */
 
@@ -72,9 +87,35 @@ nav{
 
 .bot-head > div{
     height: 400px;
-    width: 1000px;
+    width: 950px;
     margin: 0 auto;
 }
 /* fine regole parte bassa dell'header 
-   e inizio regole delle sezioni del main del main*/
-   
+   e inizio regole delle sezioni del main */
+main>section{
+    padding: 50px;
+}
+
+.main1 div{
+    justify-content: center;
+}
+
+main>section:nth-child(2n){
+    background-color: lightgray;
+}
+
+.image{
+    height: 500px;
+    width: 700px;
+}
+
+.text{
+    height: 500px;
+    width: 470px;
+}
+
+.last{
+    width: 1170px;
+    height: 1000px;
+    margin: auto;
+}
